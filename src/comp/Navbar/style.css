@@ -1,0 +1,10 @@
+
+
+
+/* below keeps hamburger in place on smaller screens */
+.navbar-toggler {
+    position: absolute;
+    background-color: rgb(245, 29, 29);
+    border: 5px solid;
+    opacity: .2;
+}

@@ -1,0 +1,11 @@
+.hero {
+    width: 400px;
+    height: 400px;
+    background-color: aqua;
+}
+
+.home-main {
+    width: 600px;
+    height: 600px;
+    background-color: rgb(230, 20, 212);
+}
