@@ -33,10 +33,22 @@ const Navigation = (props) => {
                   Home
                 </NavLink>
               </NavItem>
+
+              <NavItem>
+                <NavLink href="/" className="links">
+                  Contact
+                </NavLink>
+              </NavItem>
   
               <NavItem>
-                <NavLink href="/merchandise" className="links">
-                  Merchandise
+                <NavLink href="/about" className="links">
+                  About
+                </NavLink>
+              </NavItem>
+
+              <NavItem>
+                <NavLink href="/schedule" className="links">
+                  Schedule
                 </NavLink>
               </NavItem>
 
@@ -49,6 +61,12 @@ const Navigation = (props) => {
               <NavItem>
                 <NavLink href="/sponsors" className="links">
                   Sponsors
+                </NavLink>
+              </NavItem>
+
+              <NavItem>
+                <NavLink href="/rules" className="links">
+                  Rules
                 </NavLink>
               </NavItem>
 

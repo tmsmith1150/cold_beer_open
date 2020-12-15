@@ -4,16 +4,16 @@ import './style.css';
 import Navbar from '../Navbar';
 
 
-const Sponsors = () => {
+const Rules = () => {
 
      return (
-         <div className="sponsors-main">
+         <div className="rules-main">
              <Navbar></Navbar>
              <Form className="form" />
-             <p>sponsors page</p>
+             <p>rules page</p>
          </div>
      );
 
 }
 
-export default Sponsors;
+export default Rules;
