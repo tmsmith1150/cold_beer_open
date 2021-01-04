@@ -73,8 +73,12 @@ li {
 
 .one-more-thing-res {
     display: flex;
-    flex-wrap: wrap;
+    justify-content: center;
     font-size: 30px;
-    justify-content: space;
     margin-left: 15px;
+}
+
+.p-one-more-res {
+    display: flex;
+    justify-content: center;
 }

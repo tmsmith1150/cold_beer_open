@@ -30,7 +30,36 @@
     background-color: rgb(54, 129, 129);
 }
 
+.nav-res {
+    padding-top: 10px;
+}
+
 .long-logo {
     width: 40px;
     height: 20px;
+}
+
+.navbar-toggler::before {
+    background-color: rgb(39, 42, 46);
+    width: 80px;
+    border: 5px solid rgb(17, 1, 32);
+    border-radius: 10px 10px;
+    margin-top: 15px;
+    
+}
+
+.navbar-toggler::after {
+    display: none;
+    visibility: hidden;
+    
+}
+
+.navbar-toggler-icon {
+    background-color: white;
+    width: 40px;
+    color: white;
+}
+
+.nav-toggle {
+    color: white;
 }

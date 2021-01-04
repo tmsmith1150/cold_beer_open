@@ -63,7 +63,7 @@ const Rules = () => {
              </div>
 
              <div className="one-more-thing">
-                 PLEASE MAKE EVERY EFFORT TO ADHERE TO RULE # 7
+                 PLEASE MAKE EVERY EFFORT TO ADHERE TO RULE  # 7
              </div>
             
              </div>
@@ -116,7 +116,9 @@ const Rules = () => {
              </div>
 
              <div className="one-more-thing one-more-thing-res">
+                 <div className="p-one-more-res">
                  PLEASE MAKE EVERY EFFORT TO ADHERE TO RULE # 7
+                 </div>
              </div>
             
              </div>

@@ -20,8 +20,10 @@ const Navigation = (props) => {
   
     return (
       
-        <div className="nav">
+        <div className="nav-main">
+          
           {isDesktopOrLaptop && <>
+            <div className="nav">
         <Navbar className="nav sticky-top brand" light expand="md">
   
           <NavbarBrand className="ml-3"></NavbarBrand>
@@ -88,13 +90,15 @@ const Navigation = (props) => {
             </Nav>
           </Collapse>
         </Navbar>
+        </div>
         </>}
   
         {isTabletOrPhone && <>
+          <div className="nav-res">
         <Navbar className="nav sticky-top brand" light expand="md">
   
           <NavbarBrand className="ml-3"></NavbarBrand>
-          <NavbarToggler onClick={toggle}/>
+          <NavbarToggler className="nav-toggle" onClick={toggle}/>
           <Collapse isOpen={isOpen} navbar>
             <Nav className="ml-auto navLinks">
   
@@ -143,6 +147,7 @@ const Navigation = (props) => {
             </Nav>
           </Collapse>
         </Navbar>
+        </div>
         </>}
         </div>
             
