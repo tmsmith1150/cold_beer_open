@@ -1,0 +1,40 @@
+.login-form {
+    width: 800px;
+    height: 300px;
+    background-color: rgb(122, 122, 122);
+    position: center;
+    border: 5px solid rgb(17, 1, 32);
+    border-radius: 50px 20px;
+    margin-left: 150px;
+    
+}
+
+.mb-2 {
+   width: 400px;
+   margin-bottom: 20px;
+   height: 90px;
+}
+
+.form-div {
+    display: flex;
+    justify-content: center;
+}
+
+.login-text {
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin-top: 10px;
+  
+}
+
+.submit-btn-div {
+    display: flex;
+    justify-content: center;
+}
+
+.submit-btn {
+    background-color: rgb(90, 134, 68);
+    border: 3px solid rgb(17, 1, 32);
+    border-radius: 10px 10px;
+}

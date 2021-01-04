@@ -1,0 +1,17 @@
+.my-jumbotron {
+    background-image: url('../../assets/images/CBO-home.jpg');
+    width: 100%;
+    height: 500px;
+    opacity: .8;
+}
+
+.cbo-logo-res {
+    display: flex;
+    justify-content: center;
+}
+
+.my-jumbotron-res {
+    display: flex;
+    justify-content: center;
+    padding-right: 300px;
+}

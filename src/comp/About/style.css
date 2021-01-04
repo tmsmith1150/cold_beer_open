@@ -1,5 +1,65 @@
 .about-main {
     width: 100%;
-    height: 400px;
-    background-color: rgb(245, 162, 8);
+    background-position: 100% top;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+    background-size: 100%;
+      height: 100vh;
+      width: 100%;
+      background: linear-gradient(
+        309deg,
+        rgb(104, 155, 155) 34%,
+        rgb(116, 155, 96) 80%);
 }
+
+.row {
+    display: flex;
+    justify-content: center;
+}
+
+.about-para {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    margin-left: 20px;
+    margin-top: 40px;
+}
+
+.about-title {
+    color: rgb(26, 80, 9);
+    font-family: 'Big Shoulders Inline Display', cursive;
+    font-size: 45px;
+    display: flex;
+    justify-content: space-evenly;
+    height: 35px;
+    margin-left: 40px;
+}
+
+.cbo-about {
+    margin-top: 95px;
+    border: 5px solid rgb(17, 1, 32);
+    border-radius: 50px 20px;
+
+}
+
+.cbo-about-div {
+    margin-top: 10px;
+}
+
+.nav-res {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.title-res {
+    margin-bottom: 20px;
+}
+
+.cbo-res {
+    margin-top: 190px;
+}
+
+
+
+

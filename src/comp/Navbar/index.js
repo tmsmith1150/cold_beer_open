@@ -3,6 +3,7 @@ import './style.css';
 import {
   Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink, Button} from 'reactstrap';
 import MediaQuery, { useMediaQuery } from 'react-responsive';
+import LongLogo from '../../assets/images/long-logo.png';
 
 const Navigation = (props) => {
     const [isOpen, setIsOpen] = useState(false);
@@ -27,16 +28,23 @@ const Navigation = (props) => {
           <NavbarToggler className="toggler" onClick={toggle}/>
           <Collapse isOpen={isOpen} navbar>
             <Nav className="ml-auto navLinks">
-  
-              <NavItem>
-                <NavLink href="/" className="links">
-                  Home
-                </NavLink>
+
+            
+            
+            
+            <NavItem>
+                <NavLink>
+            
+                <div href="/home" className="long-logo-link">
+                { <img className="long-logo" src={LongLogo} alt="long" width="100px" /> }
+               </div>
+
+               </NavLink>
               </NavItem>
 
               <NavItem>
-                <NavLink href="/" className="links">
-                  Contact
+                <NavLink href="/home" className="links">
+                  Home
                 </NavLink>
               </NavItem>
   
@@ -70,6 +78,12 @@ const Navigation = (props) => {
                 </NavLink>
               </NavItem>
 
+              <NavItem>
+                <NavLink href="/home" className="links">
+                  Contact Us
+                </NavLink>
+              </NavItem>
+
     
             </Nav>
           </Collapse>
@@ -85,26 +99,44 @@ const Navigation = (props) => {
             <Nav className="ml-auto navLinks">
   
               <NavItem>
-                <NavLink href="/" className="links">
+                <NavLink href="/home" className="links links-res">
                   Home
-                </NavLink>
-              </NavItem>
-  
-              <NavItem>
-                <NavLink href="/merchandise" className="links">
-                  Merchandise
                 </NavLink>
               </NavItem>
 
               <NavItem>
-                <NavLink href="/signup" className="links">
+                <NavLink href="/about" className="links">
+                  About
+                </NavLink>
+              </NavItem>
+
+              <NavItem>
+                <NavLink href="/schedule" className="links">
+                  Schedule
+                </NavLink>
+              </NavItem>
+
+              <NavItem>
+                <NavLink href="/signup" className="links links-res">
                   Sign Up
                 </NavLink>
               </NavItem>
 
               <NavItem>
-                <NavLink href="/sponsors" className="links">
+                <NavLink href="/sponsors" className="links links-res">
                   Sponsors
+                </NavLink>
+              </NavItem>
+
+              <NavItem>
+                <NavLink href="/rules" className="links">
+                  Rules
+                </NavLink>
+              </NavItem>
+
+              <NavItem>
+                <NavLink href="/home" className="links links-res">
+                  Contact Us
                 </NavLink>
               </NavItem>
     

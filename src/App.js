@@ -3,7 +3,8 @@ import React from 'react';
 import { Route, BrowserRouter, Switch } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Container } from 'reactstrap';
-import Home from './comp/Home';
+import Home from './pages/Home';
+// import Login from './pages/Login';
 import SignUp from './comp/SignUp';
 import About from './comp/About';
 import Sponsors from './comp/Sponsors';
@@ -21,6 +22,7 @@ function App() {
            <BrowserRouter>
              <Switch> 
             <Route exact path="/" component={Home} />
+            <Route exact path="/home" component={Home} />
             <Route exact path="/signup" component={SignUp} />
             <Route exact path="/about" component={About} />
             <Route exact path="/sponsors" component={Sponsors} />

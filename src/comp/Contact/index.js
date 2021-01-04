@@ -2,14 +2,14 @@
 import { Form, Button, Fade, ListGroup, ListGroupItem, NavLink } from 'reactstrap';
 import './style.css';
 import React, { useState } from 'react';
-import emailIcon from "../Gifs/email-logo.png";
-import baywatchLogo from "../Gifs/baywatch.logo.png";
+import emailIcon from "../../assets/images/email-logo.png";
+import baywatchLogo from "../../assets/images/baywatch.logo.png";
 
 
 
 const Contact = (props) => {
 
-    const [fadeIn, setFadeIn] = useState(true);
+    const [fadeIn, setFadeIn] = useState(false);
 
     const toggle = () => setFadeIn(!fadeIn);
 
@@ -18,10 +18,11 @@ const Contact = (props) => {
         
 
          <div className="contact-main">
-
-          <Button className="contact-btn" onClick={toggle}>Contact Us</Button>
+           <div className="contact-btn-div">
+          <Button className="contact-btn btn btn secondary" onClick={toggle}>Contact Us</Button>
+          </div>
             <Fade in={fadeIn} tag="h5" className="mt-3">
-
+            
             {/* This content will fade in and out as the button is pressed */}
                 <div className="row">
                     <div className="column">
