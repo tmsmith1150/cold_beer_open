@@ -18,28 +18,50 @@
     justify-content: center;
 }
 
+.about-para-div {
+   display: flex;
+   justify-content: center;
+   
+}
+
 .about-para {
-    color: white;
-    font-family: 'Raleway', sans-serif;
-    font-size: 20px;
-    margin-left: 20px;
-    margin-top: 40px;
+    background-image: url('../../assets/images/golf-ball4.jpg');
+    width: 100%;
+    background-position: 80% top;
+    margin-left: 50px;
+    margin-top: 20px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 20px 20px;
+    
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+    background-size: 115%;
+    height: 100vh;
+    
+
+    font-size: 25px;
+    color: rgb(15, 15, 15);
+  font-weight: 1000;
+  font-family: 'Kavivanar', cursive;
+    
 }
 
 .about-title {
-    color: rgb(26, 80, 9);
+    color: rgb(25, 68, 12);
     font-family: 'Big Shoulders Inline Display', cursive;
     font-size: 45px;
-    display: flex;
-    justify-content: space-evenly;
+    font: 900;
+    text-align: center;
     height: 35px;
     margin-left: 40px;
+    margin-top: 20px;
 }
 
 .cbo-about {
-    margin-top: 95px;
+    margin-top: 105px;
     border: 5px solid rgb(17, 1, 32);
-    border-radius: 50px 20px;
+    border-radius: 40px 20px;
 
 }
 
