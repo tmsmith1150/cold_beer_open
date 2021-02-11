@@ -10,10 +10,6 @@
     opacity: .2;
 }
 
-.long-logo-link {
-    width: 80px;
-   
-}
 
 .links {
     color: white;
@@ -31,13 +27,13 @@
     background-color: rgb(54, 129, 129);
 }
 
-.nav-res {
-    padding-top: 10px;
+.item {
+    display: flex;
+    justify-content:space-between;
 }
 
-.long-logo {
-    width: 40px;
-    height: 20px;
+.nav-res {
+    padding-top: 10px;
 }
 
 .navbar-toggler::before {

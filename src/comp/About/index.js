@@ -25,7 +25,7 @@ const About = () => {
              <div className="about-title">The Cold Beer Open concept was born in 1980 and organized by Terry Smith and Earl Beahm.</div>
              
              <div className="cbo-about-div">
-             { <img className="cbo-about display-4 brand animate__animated animate__fadeInDown animate__delay-1s" src={AboutSlide} alt="about"/> }
+             { <img className="cbo-about display-4 brand animate__animated animate__fadeInUp animate__delay-1s" src={AboutSlide} alt="about"/> }
              </div>
 
              
@@ -46,7 +46,7 @@ const About = () => {
              <div className="about-title title-res">The Cold Beer Open concept was born in 1980 and organized by Terry Smith and Earl Beahm.</div>
              
              <div className="cbo-about-div cbo-res">
-             { <img className="cbo-about display-4 brand animate__animated animate__fadeInDown animate__delay-1s" src={AboutSlide} alt="about"/> }
+             { <img className="cbo-about display-4 brand animate__animated animate__fadeInUp animate__delay-1s" src={AboutSlide} alt="about"/> }
              </div>
 
              

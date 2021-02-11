@@ -34,57 +34,57 @@ const Navigation = (props) => {
             
             
             
-            <NavItem>
+            <NavItem className="item">
                 <NavLink>
             
                 <div href="/home" className="long-logo-link">
-                { <img className="long-logo" src={LongLogo} alt="long" width="100px" /> }
+                { <img className="long-logo" src={LongLogo} alt="long" width="180px" height="80px" /> }
                </div>
 
                </NavLink>
               </NavItem>
 
-              <NavItem>
+              <NavItem className="item">
                 <NavLink href="/home" className="links">
                   Home
                 </NavLink>
               </NavItem>
   
-              <NavItem>
+              <NavItem className="item">
                 <NavLink href="/about" className="links">
                   About
                 </NavLink>
               </NavItem>
 
-              <NavItem>
+              <NavItem className="item">
                 <NavLink href="/schedule" className="links">
                   Schedule
                 </NavLink>
               </NavItem>
 
-              <NavItem>
+              {/* <NavItem className="item">
                 <NavLink href="/signup" className="links">
                   Sign Up
                 </NavLink>
-              </NavItem>
+              </NavItem> */}
 
-              <NavItem>
+              {/* <NavItem className="item">
                 <NavLink href="/sponsors" className="links">
                   Sponsors
                 </NavLink>
-              </NavItem>
+              </NavItem> */}
 
-              <NavItem>
+              <NavItem className="item">
                 <NavLink href="/rules" className="links">
                   Rules
                 </NavLink>
               </NavItem>
 
-              <NavItem>
+              {/* <NavItem className="item">
                 <NavLink href="/home" className="links">
                   Contact Us
                 </NavLink>
-              </NavItem>
+              </NavItem> */}
 
     
             </Nav>
@@ -138,11 +138,11 @@ const Navigation = (props) => {
                 </NavLink>
               </NavItem>
 
-              <NavItem>
+              {/* <NavItem>
                 <NavLink href="/home" className="links links-res">
                   Contact Us
                 </NavLink>
-              </NavItem>
+              </NavItem> */}
     
             </Nav>
           </Collapse>

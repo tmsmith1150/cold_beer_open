@@ -10,6 +10,10 @@ import About from './comp/About';
 import Sponsors from './comp/Sponsors';
 import Schedule from './comp/Schedule';
 import Rules from './comp/Rules';
+import Year2020 from './comp/2020';
+import Year2019 from './comp/2019';
+import Year2018 from './comp/2018';
+import Year2017 from './comp/2017';
 
 
 import './index.css'
@@ -28,6 +32,11 @@ function App() {
             <Route exact path="/sponsors" component={Sponsors} />
             <Route exact path="/schedule" component={Schedule} />
             <Route exact path="/rules" component={Rules} />
+
+            <Route exact path="/2020" component={Year2020} />
+            <Route exact path="/2019" component={Year2019} />
+            <Route exact path="/2018" component={Year2018} />
+            <Route exact path="/2017" component={Year2017} />
             
             </Switch>
             </BrowserRouter>
