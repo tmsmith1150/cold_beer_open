@@ -21,10 +21,12 @@ const Schedule = () => {
 
 {isDesktopOrLaptop && <>
              <div>
+             <div className="nav-div">
              <Navbar></Navbar>
+             </div>
 
              <NavItem className="item">
-                <NavLink href="/about" className="links">
+                <NavLink href="/2021" className="links">
                   2021
                 </NavLink>
               </NavItem>
@@ -60,7 +62,9 @@ const Schedule = () => {
 
              {isTabletOrPhone && <>
              <div>
+             <div className="nav-div">
              <Navbar></Navbar>
+             </div>
               
 
              </div>

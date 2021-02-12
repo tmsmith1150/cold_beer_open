@@ -7,33 +7,42 @@
     background-size: 100%;
       height: 100vh;
       width: 100%;
-      background: linear-gradient(
+      background-image: url('../../assets/images/about-para.jpg');
+      /* background: linear-gradient(
         309deg,
         rgb(104, 155, 155) 34%,
-        rgb(116, 155, 96) 80%);
+        rgb(116, 155, 96) 80%); */
+}
+
+.about-title {
+    color: rgb(25, 68, 12);
+    font-family: 'Big Shoulders Inline Display', cursive;
+    font-size: 45px;
+    font: 900;
+    text-align: center;
+    height: 35px;
+    margin-left: 40px;
+    margin-top: 20px;
 }
 
 .row {
     display: flex;
-    justify-content: center;
+    flex-wrap: nowrap;
+    justify-content: space-around; 
+    height: 380px;
+    margin-top: 20px;
 }
 
-.about-para-div {
-   display: flex;
-   justify-content: center;
-   
-}
 
 .about-para {
-    background-image: url('../../assets/images/about-para.jpg');
-    width: 100%;
+    
+   
     background-position: 80% top;
-    margin-left: 50px;
-    margin-top: 20px;
+   
+    margin-top: 120px;
     padding: 10px;
-    text-align: center;
+    text-align: left;
     border-radius: 20px 20px;
-    opacity: .5;
     
     background-repeat: no-repeat;
     overflow-x: hidden;
@@ -48,16 +57,6 @@
     
 }
 
-.about-title {
-    color: rgb(25, 68, 12);
-    font-family: 'Big Shoulders Inline Display', cursive;
-    font-size: 45px;
-    font: 900;
-    text-align: center;
-    height: 35px;
-    margin-left: 40px;
-    margin-top: 20px;
-}
 
 .cbo-about {
     margin-top: 105px;
@@ -66,22 +65,78 @@
 
 }
 
-.cbo-about-div {
-    margin-top: 10px;
+.second {
+    margin-left: 35px;
+    Margin-right: 30px;
 }
 
-.nav-res {
+
+@media only screen and (max-width: 780px) {
+
+    .cbo-about-div {
+        margin-top: 50px;
+    }
+    .about-para {
+        margin-top: 160px;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .cbo-about-div {
+    margin-top: 10px;
+} */
+
+/* .nav-res {
     margin-bottom: 10px;
     margin-top: 10px;
-}
+} */
 
-.title-res {
+/* .title-res {
     margin-bottom: 20px;
-}
+} */
 
-.cbo-res {
+/* .cbo-res {
     margin-top: 190px;
-}
+} */
 
 
 

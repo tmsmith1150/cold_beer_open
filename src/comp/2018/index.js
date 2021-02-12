@@ -1,8 +1,9 @@
 import React from "react"
-import { Form } from 'reactstrap';
+import { Card, CardImg, CardBody, CardTitle, CardText, CardLink } from 'reactstrap';
 import './style.css';
 import Navbar from '../Navbar';
-import AboutSlide from '../../assets/images/about_slide_1.jpg';
+import PhotoCarousel2018 from '../PhotoCarousel2018';
+import Beachwood from '../../assets/images/beachwood.jpg';
 import MediaQuery, { useMediaQuery } from 'react-responsive';
 
 
@@ -23,13 +24,80 @@ const Year2018  = () => {
              <Navbar></Navbar>
              </div>
 
-             <div className="row" col="2">
-
-             <div className="2020-title">The year 2018.</div>
-             
-             <div className="cbo-about-div">
-             { <img className="cbo-about display-4 brand animate__animated animate__fadeInDown animate__delay-1s" src={AboutSlide} alt="about"/> }
+             <div className="carousel-year">
+             <PhotoCarousel2018/>
              </div>
+
+             
+
+             <div className="2018-title">The year 2018.</div>
+
+             <div className="row" col="4">
+
+                 
+<div className="card-div">
+<Card style={{ width: '13rem' }}>
+    <CardLink href="/photosbeachwood2018">
+  <CardImg variant="top" src={Beachwood} />
+  </CardLink>
+  <CardBody>
+    <CardTitle>Beachwood Golf Club</CardTitle>
+    <CardText>
+      Some quick example text to build on the card title and make up the bulk of
+      the card's content.
+    </CardText>
+   
+  </CardBody>
+</Card>
+</div>
+
+<div className="card-div">
+<Card style={{ width: '13rem' }}>
+    <CardLink>
+  <CardImg variant="top" src={Beachwood} />
+  </CardLink>
+  <CardBody>
+    <CardTitle>Beachwood Golf Club</CardTitle>
+    <CardText>
+      Some quick example text to build on the card title and make up the bulk of
+      the card's content.
+    </CardText>
+   
+  </CardBody>
+</Card>
+</div>
+
+<div className="card-div">
+<Card style={{ width: '13rem' }}>
+    <CardLink>
+  <CardImg variant="top" src={Beachwood} />
+  </CardLink>
+  <CardBody>
+    <CardTitle>Beachwood Golf Club</CardTitle>
+    <CardText>
+      Some quick example text to build on the card title and make up the bulk of
+      the card's content.
+    </CardText>
+   
+  </CardBody>
+</Card>
+</div>
+
+<div className="card-div">
+<Card style={{ width: '13rem' }}>
+    <CardLink>
+  <CardImg variant="top" src={Beachwood} />
+  </CardLink>
+  <CardBody>
+    <CardTitle>Beachwood Golf Club</CardTitle>
+    <CardText>
+      Some quick example text to build on the card title and make up the bulk of
+      the card's content.
+    </CardText>
+   
+  </CardBody>
+</Card>
+</div>
 
              
           
@@ -44,14 +112,14 @@ const Year2018  = () => {
                 <Navbar></Navbar>
                 </div>
                 
-             <div className="row" col="2">
+            
 
             
-             <div className="2020-title">The year 2018.</div>
+             <div className="2018-title">The year 2018.</div>
+
+             <div className="row" col="4">
              
-             <div className="cbo-about-div cbo-res">
-             { <img className="cbo-about display-4 brand animate__animated animate__fadeInDown animate__delay-1s" src={AboutSlide} alt="about"/> }
-             </div>
+            
 
              
           

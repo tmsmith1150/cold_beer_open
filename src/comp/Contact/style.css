@@ -44,7 +44,11 @@
 
 .contact-list {
     border-color: rgb(82, 189, 189);
-    height: 35px;
+    height: 15px;
+}
+
+.email-link {
+    margin-top: 10px;
 }
 
 .contact-btn {
@@ -68,4 +72,14 @@
     display: flex;
     justify-content: center;
 }
+
+
+@media only screen and (max-width: 780px) {
+    .column {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    
+  }
 

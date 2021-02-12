@@ -10,10 +10,16 @@ import About from './comp/About';
 import Sponsors from './comp/Sponsors';
 import Schedule from './comp/Schedule';
 import Rules from './comp/Rules';
+
+import Year2021 from './comp/2021';
 import Year2020 from './comp/2020';
 import Year2019 from './comp/2019';
 import Year2018 from './comp/2018';
 import Year2017 from './comp/2017';
+
+import PhotosBeachwood2018 from './comp/PhotosBeachwood2018';
+import PhotosBeachwood2020 from './comp/PhotosBeachwood2020';
+
 
 
 import './index.css'
@@ -33,10 +39,16 @@ function App() {
             <Route exact path="/schedule" component={Schedule} />
             <Route exact path="/rules" component={Rules} />
 
+            <Route exact path="/2021" component={Year2021} />
             <Route exact path="/2020" component={Year2020} />
             <Route exact path="/2019" component={Year2019} />
             <Route exact path="/2018" component={Year2018} />
             <Route exact path="/2017" component={Year2017} />
+
+            <Route exact path="/photosbeachwood2018" component={PhotosBeachwood2018} />
+            <Route exact path="/photosbeachwood2020" component={PhotosBeachwood2020} />
+
+           
             
             </Switch>
             </BrowserRouter>

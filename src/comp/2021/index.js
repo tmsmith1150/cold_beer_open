@@ -1,8 +1,8 @@
 import React from "react"
-import { Card, CardImg, CardBody, CardTitle, CardText, CardLink } from 'reactstrap';
+import { Card, CardImg, CardBody, CardTitle, CardText, CardLink, NavItem, NavLink } from 'reactstrap';
 import './style.css';
 import Navbar from '../Navbar';
-import PhotoCarousel2020 from '../PhotoCarousel2020';
+import PhotoCarousel2021 from '../PhotoCarousel2021';
 import Beachwood from '../../assets/images/beachwood.jpg';
 import MediaQuery, { useMediaQuery } from 'react-responsive';
 
@@ -18,19 +18,19 @@ const Year2020  = () => {
     });
 
      return (
-         <div className="2020-main">
+         <div className="2021-main">
               {isDesktopOrLaptop && <>
                 <div className="nav-res">
              <Navbar></Navbar>
              </div>
 
              <div className="carousel-year">
-             <PhotoCarousel2020/>
+             <PhotoCarousel2021/>
              </div>
 
              
 
-             <div className="2020-title">The year 2020.</div>
+             <div className="2020-title">The year 2021.</div>
 
              <div className="row" col="4">
 
@@ -51,53 +51,20 @@ const Year2020  = () => {
 </Card>
 </div>
 
-<div className="card-div">
-<Card style={{ width: '13rem' }}>
-    <CardLink>
-  <CardImg variant="top" src={Beachwood} />
-  </CardLink>
-  <CardBody>
-    <CardTitle>Beachwood Golf Club</CardTitle>
-    <CardText>
-      Some quick example text to build on the card title and make up the bulk of
-      the card's content.
-    </CardText>
-   
-  </CardBody>
-</Card>
-</div>
 
-<div className="card-div">
-<Card style={{ width: '13rem' }}>
-    <CardLink>
-  <CardImg variant="top" src={Beachwood} />
-  </CardLink>
-  <CardBody>
-    <CardTitle>Beachwood Golf Club</CardTitle>
-    <CardText>
-      Some quick example text to build on the card title and make up the bulk of
-      the card's content.
-    </CardText>
-   
-  </CardBody>
-</Card>
-</div>
+<div>
+<NavItem className="item">
+                <NavLink href="/signup" className="links">
+                  Sign Up
+                </NavLink>
 
-<div className="card-div">
-<Card style={{ width: '13rem' }}>
-    <CardLink>
-  <CardImg variant="top" src={Beachwood} />
-  </CardLink>
-  <CardBody>
-    <CardTitle>Beachwood Golf Club</CardTitle>
-    <CardText>
-      Some quick example text to build on the card title and make up the bulk of
-      the card's content.
-    </CardText>
-   
-  </CardBody>
-</Card>
-</div>
+              </NavItem>
+
+              </div>
+
+
+
+
 
              
           
@@ -115,7 +82,7 @@ const Year2020  = () => {
             
 
             
-             <div className="2020-title">The year 2020.</div>
+             <div className="2020-title">The year 2021.</div>
 
              <div className="row" col="4">
              
