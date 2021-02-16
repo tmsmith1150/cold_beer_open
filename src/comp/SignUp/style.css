@@ -1,5 +1,68 @@
 .sign-up-main {
     width: 100%;
-    height: 400px;
-    background-color: blue;
+    background-position: 100% top;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+    background-size: 100%;
+      height: 100vh;
+      width: 100%;
+      background: linear-gradient(
+        309deg,
+        rgb(104, 155, 155) 34%,
+        rgb(116, 155, 96) 80%);
 }
+
+.tbd-h1 {
+    color: rgb(24, 114, 24);
+    padding-left: 35px;
+    font: 900 60px/1.3 Lobster Two, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.sign-up-form-div {
+    width: 100%;
+}
+
+.sign-up-form {
+    width: 600px;
+    padding-left: 350px;
+    margin-top: 30px;
+}
+
+.name-info {
+    width: 400px;
+    height: 30px;
+}
+
+.player-info {
+    margin-bottom: 13px;
+}
+
+.pairings {
+    padding-bottom: 60px;
+}
+
+.pairing-choices-h1 {
+    color: rgb(24, 114, 24);
+    padding-left: 10px;
+    font: 900 30px/1.3 Lobster Two, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.pair-first-name {
+    margin-bottom: 13px;
+}
+
+/* .submit-signup-btn {
+    color:rgb(24, 114, 24)
+   
+} */
+
+.btn-secondary {
+    background-color:rgb(54, 129, 129);
+    color: white;
+    margin-left: 160px;
+}
+
+

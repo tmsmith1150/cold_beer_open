@@ -7,3 +7,26 @@
 .row {
     margin-left: 60px;
 }
+
+.year-2021-title {
+  text-align: center;
+  font-weight: 700;
+  font: 400 60px/1.3 Lobster Two, Helvetica, sans-serif;
+  color: rgb(25, 128, 51);
+  text-shadow: 1px 1px 0px #ededed, 4px 4px 0px rgba(0,0,0,0);
+  padding-bottom: 20px;
+}
+
+.signup-2021-link {
+  
+  font-weight: 700;
+  font: 400 60px/1.3 Lobster Two, Helvetica, sans-serif;
+  color: rgb(25, 128, 51);
+  text-shadow: 1px 1px 0px #ededed, 4px 4px 0px rgba(0,0,0,0);
+  padding-bottom: 20px;
+}
+
+.signup-2021-div {
+    display: flex;
+    justify-content: center;
+}

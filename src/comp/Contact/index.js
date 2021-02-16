@@ -73,7 +73,7 @@ const Contact = (props) => {
 
             {isTabletOrPhone && <>
            <div className="contact-btn-div">
-          <Button className="contact-btn btn btn secondary" onClick={toggle}>Contact Us</Button>
+          <Button className="contact-btn btn" onClick={toggle}>Contact Us</Button>
           </div>
             <Fade in={fadeIn} tag="h5" className="mt-3">
             

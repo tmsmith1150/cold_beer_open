@@ -20,6 +20,10 @@ import Year2017 from './comp/2017';
 import PhotosBeachwood2018 from './comp/PhotosBeachwood2018';
 import PhotosBeachwood2020 from './comp/PhotosBeachwood2020';
 
+import PhotosThePearl2020 from './comp/PhotosThePearl2020';
+
+import PhotosLeopardsChase2020 from './comp/PhotosLeopardsChase2020';
+
 
 
 import './index.css'
@@ -47,6 +51,8 @@ function App() {
 
             <Route exact path="/photosbeachwood2018" component={PhotosBeachwood2018} />
             <Route exact path="/photosbeachwood2020" component={PhotosBeachwood2020} />
+            <Route exact path="/photosthepearl2020" component={PhotosThePearl2020} />
+            <Route exact path="/photosleopardschase2020" component={PhotosLeopardsChase2020} />
 
            
             

@@ -4,6 +4,8 @@ import './style.css';
 import Navbar from '../Navbar';
 import PhotoCarousel2020 from '../PhotoCarousel2020';
 import Beachwood from '../../assets/images/beachwood.jpg';
+import ThePearl from '../../assets/images/the-pearl-logo.jpg';
+import LCLogo from '../../assets/images/lc_logo.jpg';
 import MediaQuery, { useMediaQuery } from 'react-responsive';
 
 
@@ -30,7 +32,7 @@ const Year2020  = () => {
 
              
 
-             <div className="2020-title">The year 2020.</div>
+             <div className="year-2020-title">A look back at 2020.</div>
 
              <div className="row" col="4">
 
@@ -43,8 +45,7 @@ const Year2020  = () => {
   <CardBody>
     <CardTitle>Beachwood Golf Club</CardTitle>
     <CardText>
-      Some quick example text to build on the card title and make up the bulk of
-      the card's content.
+    Beachwood Golf Club is a public 18-hole golf course located off of U.S. 17 in the heart of North Myrtle Beach.
     </CardText>
    
   </CardBody>
@@ -53,14 +54,13 @@ const Year2020  = () => {
 
 <div className="card-div">
 <Card style={{ width: '13rem' }}>
-    <CardLink>
-  <CardImg variant="top" src={Beachwood} />
+    <CardLink href="/photosthepearl2020">
+  <CardImg className="the-logo-img" variant="top" src={ThePearl} />
   </CardLink>
   <CardBody>
-    <CardTitle>Beachwood Golf Club</CardTitle>
+    <CardTitle>The Pearl East</CardTitle>
     <CardText>
-      Some quick example text to build on the card title and make up the bulk of
-      the card's content.
+    The Pearl Golf Course and the 27 holes create three distinctly different 18 hole golf experiences, The Pearl East, The Pearl West, and The Pearl North.
     </CardText>
    
   </CardBody>
@@ -69,14 +69,13 @@ const Year2020  = () => {
 
 <div className="card-div">
 <Card style={{ width: '13rem' }}>
-    <CardLink>
-  <CardImg variant="top" src={Beachwood} />
+    <CardLink href="/photosthepearl2020">
+  <CardImg className="the-logo-img" variant="top" src={ThePearl} />
   </CardLink>
   <CardBody>
-    <CardTitle>Beachwood Golf Club</CardTitle>
+    <CardTitle>The Pearl West</CardTitle>
     <CardText>
-      Some quick example text to build on the card title and make up the bulk of
-      the card's content.
+    The Pearl Golf Course and the 27 holes create three distinctly different 18 hole golf experiences, The Pearl East, The Pearl West, and The Pearl North.
     </CardText>
    
   </CardBody>
@@ -85,14 +84,13 @@ const Year2020  = () => {
 
 <div className="card-div">
 <Card style={{ width: '13rem' }}>
-    <CardLink>
-  <CardImg variant="top" src={Beachwood} />
+    <CardLink href="/photosleopardschase2020">
+  <CardImg className="the-logo-img" variant="top" src={LCLogo} />
   </CardLink>
   <CardBody>
-    <CardTitle>Beachwood Golf Club</CardTitle>
+    <CardTitle>Leopard's Chase</CardTitle>
     <CardText>
-      Some quick example text to build on the card title and make up the bulk of
-      the card's content.
+    Named by Golf Digest and GOLF Magazine as one of the “Top 10 Best New Public Courses in America for 2007”.
     </CardText>
    
   </CardBody>

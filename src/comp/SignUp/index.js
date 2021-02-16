@@ -1,5 +1,5 @@
 import React from "react"
-import { Form } from 'reactstrap';
+import { Form, InputGroup, Input, InputGroupAddon, Button } from 'reactstrap';
 import './style.css';
 import Navbar from '../Navbar';
 
@@ -12,48 +12,104 @@ const SignUp = () => {
              <Navbar></Navbar>
              </div>
 
-        <div className="sign-up-form-div">
-             <Form>
-             <div className="input-group mb-3">
-  <label className="input-group-text" for="inputGroupSelect01">Options</label>
-  <select className="form-select" id="inputGroupSelect01">
-    <option selected>Choose...</option>
-    <option value="1">One</option>
-    <option value="2">Two</option>
-    <option value="3">Three</option>
-  </select>
-</div>
+        
 
-<div className="input-group mb-3">
-  <select className="form-select" id="inputGroupSelect02">
-    <option selected>Choose...</option>
-    <option value="1">One</option>
-    <option value="2">Two</option>
-    <option value="3">Three</option>
-  </select>
-  <label className="input-group-text" for="inputGroupSelect02">Options</label>
-</div>
+          <div className="tbd">
+            <h1 className="tbd-h1">
+              Dates and destinations are being finalized. Sign up will begin March 15th.
+            </h1>
+          </div>
 
-<div className="input-group mb-3">
-  <button className="btn btn-outline-secondary" type="button">Button</button>
-  <select className="form-select" id="inputGroupSelect03" aria-label="Example select with button addon">
-    <option selected>Choose...</option>
-    <option value="1">One</option>
-    <option value="2">Two</option>
-    <option value="3">Three</option>
-  </select>
-</div>
 
-<div className="input-group">
-  <select className="form-select" id="inputGroupSelect04" aria-label="Example select with button addon">
-    <option selected>Choose...</option>
-    <option value="1">One</option>
-    <option value="2">Two</option>
-    <option value="3">Three</option>
-  </select>
-  <button className="btn btn-outline-secondary" type="button">Button</button>
-</div>
-</Form>
+          <div className="sign-up-form-div">
+
+
+             <Form className="sign-up-form">
+
+             <div className="input-group-info">
+             <InputGroup className="name-info player-info">
+        <InputGroupAddon addonType="prepend">First name</InputGroupAddon>
+        <Input />
+      </InputGroup>
+    
+      <InputGroup className="name-info">
+        <InputGroupAddon addonType="prepend">Last name</InputGroupAddon>
+        <Input />
+      </InputGroup>
+      <br />
+      <InputGroup className="name-info">
+        <InputGroupAddon addonType="prepend">Email</InputGroupAddon>
+        <Input />
+      </InputGroup>
+      <br />
+      <InputGroup className="name-info">
+        <InputGroupAddon addonType="prepend">Phone</InputGroupAddon>
+        <Input />
+      </InputGroup>
+      <br />
+      
+      </div>
+      </Form>
+
+      <div className="pairing-choices">
+        <h2 className="pairing-choices-h1">Please list three players that you would like to be paired with. We make every effort to pair our players with one of their choices each day.</h2>
+      </div>
+
+
+      <Form className="sign-up-form pairings">
+
+             <div className="input-group-info">
+             <InputGroup className="name-info pair-first-name">
+        <InputGroupAddon addonType="prepend">First name</InputGroupAddon>
+        <Input />
+      </InputGroup>
+   
+      <InputGroup className="name-info">
+        <InputGroupAddon addonType="prepend">Last name</InputGroupAddon>
+        <Input />
+      </InputGroup>
+      <br />
+      <InputGroup className="name-info pair-first-name">
+        <InputGroupAddon addonType="prepend">First name</InputGroupAddon>
+        <Input />
+      </InputGroup>
+     
+      <InputGroup className="name-info">
+        <InputGroupAddon addonType="prepend">Last name</InputGroupAddon>
+        <Input />
+      </InputGroup>
+      <br />
+      <InputGroup className="name-info pair-first-name">
+        <InputGroupAddon addonType="prepend">First name</InputGroupAddon>
+        <Input />
+      </InputGroup>
+    
+      <InputGroup className="name-info">
+        <InputGroupAddon addonType="prepend">Last name</InputGroupAddon>
+        <Input />
+      </InputGroup>
+      <br />
+
+      <Button className="submit-signup-btn">Submit
+
+      </Button>
+      
+
+
+
+      
+      </div>
+      </Form>
+            
+
+
+
+
+
+
+
+
+
 </div>
              
          </div>

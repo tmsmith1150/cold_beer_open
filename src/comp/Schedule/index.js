@@ -24,20 +24,21 @@ const Schedule = () => {
              <div className="nav-div">
              <Navbar></Navbar>
              </div>
-
+              
+              <div className="years-div">
              <NavItem className="item">
-                <NavLink href="/2021" className="links">
+                <NavLink href="/2021" className="links year-link">
                   2021
                 </NavLink>
               </NavItem>
 
               <NavItem className="item">
-                <NavLink href="/2020" className="links">
+                <NavLink href="/2020" className="links year-link">
                   2020
                 </NavLink>
               </NavItem>
 
-              <NavItem className="item">
+              {/* <NavItem className="item">
                 <NavLink href="/2019" className="links">
                   2019
                 </NavLink>
@@ -53,7 +54,8 @@ const Schedule = () => {
                 <NavLink href="/2017" className="links">
                   2017
                 </NavLink>
-              </NavItem>
+              </NavItem> */}
+              </div>
 
              </div>
              </>}

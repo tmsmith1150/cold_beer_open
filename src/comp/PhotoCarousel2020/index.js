@@ -39,6 +39,36 @@ const items = [
             header: <h1 className="event-name rounded">Cold Beer Open 2020</h1>,
             key: '1'
           },
+          {
+            src: '../assets/images/20184.jpg',
+            altText: 'Slide 1',
+            header: <h1 className="event-name rounded">Cold Beer Open 2020</h1>,
+            key: '1'
+          },
+          {
+              src: '../assets/images/20185.jpg',
+              altText: 'Slide 2',
+              header: <h1 className="event-name rounded">Cold Beer Open 2020</h1>,
+              key: '1'
+            },
+            {
+            src: '../assets/images/20186.jpg',
+              altText: 'Slide 3',
+              header: <h1 className="event-name rounded">Cold Beer Open 2020</h1>,
+              key: '1'
+            },
+            {
+              src: '../assets/images/20187.jpg',
+                altText: 'Slide 3',
+                header: <h1 className="event-name rounded">Cold Beer Open 2020</h1>,
+                key: '1'
+              },
+              {
+                src: '../assets/images/20188.jpg',
+                  altText: 'Slide 3',
+                  header: <h1 className="event-name rounded">Cold Beer Open 2020</h1>,
+                  key: '1'
+                },
 ];
 
 
