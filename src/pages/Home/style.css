@@ -16,8 +16,9 @@
       width: 100%;
     background: linear-gradient(
   309deg,
-  rgb(54, 129, 129) 34%,
-  rgb(94, 129, 76) 80%);
+  rgb(210, 248, 248) 34%,
+  rgb(229, 250, 217) 80%);
+  
 }
 
 .cbo-logo {
@@ -31,5 +32,16 @@
     height: 600px;
     /* background-color: rgb(189, 194, 194); */
     /* background-image: url('../Gifs/CBO-home.jpg'); */
+}
+
+.year-2021-title {
+  color: rgb(25, 128, 51);
+  text-shadow: 1px 1px 0px #ededed, 4px 4px 0px rgba(0,0,0,0);
+}
+
+.year-2021-para1 {
+  padding-left: 25px;
+  padding-right: 25px;
+  color: black;
 }
 

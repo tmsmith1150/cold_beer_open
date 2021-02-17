@@ -22,31 +22,40 @@
   .event-name {
     background-color: rgb(216, 218, 219);
     opacity: 0.6;
-    font-weight: 700;
-  font: 400 100px/1.3 Lobster Two, Helvetica, sans-serif;
+    font-family: Helvetica, sans-serif;
   color: rgb(25, 128, 51);
-  text-shadow: 1px 1px 0px #ededed, 4px 4px 0px rgba(0,0,0,0);
+    font-weight: bolder;
+    font-size: 60px;
+   
   }
   
   @media only screen and (max-width: 600px) {
-      body {
-        background-color: lightblue;
-      }
+      
     }
   
     .event-name {
       background-color: rgb(216, 218, 219);
       opacity: 0.6;
-      font-weight: 700;
-  font: 400 100px/1.3 Lobster Two, Helvetica, sans-serif;
+      font-family: Helvetica, sans-serif;
   color: rgb(25, 128, 51);
-  text-shadow: 1px 1px 0px #ededed, 4px 4px 0px rgba(0,0,0,0);
-    }
-  
-    .descript {
-      background-color: rgb(216, 218, 219);
-      opacity: 0.6;
-      color: black;
       font-weight: bolder;
-      font-size: 25px;;
+      font-size: 60px;
+      
     }
+
+    @media only screen and (max-width: 400px) {
+
+      .event-name {
+        background-color: rgb(216, 218, 219);
+      opacity: 0.6;
+      font-family: Helvetica, sans-serif;
+  color: rgb(25, 128, 51);
+      font-weight: bolder;
+      font-size: 60px;
+      }
+        
+      }
+  
+    
+  
+    

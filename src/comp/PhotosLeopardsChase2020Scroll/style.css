@@ -1,0 +1,43 @@
+.carousel {
+    max-width: 100%;
+  }
+  
+  .carousel-item {
+      width: 500px;
+      height: 500px;
+      padding-left: 25px;
+      padding-right: 10px;
+  
+      background-position: 100% top;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    background-size: 100%;
+     width: 100%;
+  }
+  
+  .event-name {
+    background-color: rgb(216, 218, 219);
+    opacity: 0.6;
+    font-family: Helvetica, sans-serif;
+  color:  rgb(20, 22, 21);
+    font-weight: bolder;
+    font-size: 60px;
+   
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .event-name {
+        background-color: rgb(216, 218, 219);
+        opacity: 0.6;
+        font-family: Helvetica, sans-serif;
+    color:  rgb(20, 22, 21);
+        font-weight: bolder;
+        font-size: 60px;
+        
+      }
+      
+    }
+  
+    

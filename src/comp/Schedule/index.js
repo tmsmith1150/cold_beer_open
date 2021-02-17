@@ -67,6 +67,24 @@ const Schedule = () => {
              <div className="nav-div">
              <Navbar></Navbar>
              </div>
+
+             <div className="years-div">
+               <div className="years-item">
+             <NavItem className="item">
+                <NavLink href="/2021" className="links year-link">
+                  2021
+                </NavLink>
+              </NavItem>
+              </div>
+
+              <div className="years-item">
+              <NavItem className="item">
+                <NavLink href="/2020" className="links year-link">
+                  2020
+                </NavLink>
+              </NavItem>
+              </div>
+              </div>
               
 
              </div>

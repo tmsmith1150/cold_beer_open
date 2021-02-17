@@ -121,7 +121,7 @@ const Navigation = (props) => {
                 </NavLink>
               </NavItem>
 
-              <NavItem>
+              {/* <NavItem>
                 <NavLink href="/signup" className="links links-res">
                   Sign Up
                 </NavLink>
@@ -131,7 +131,7 @@ const Navigation = (props) => {
                 <NavLink href="/sponsors" className="links links-res">
                   Sponsors
                 </NavLink>
-              </NavItem>
+              </NavItem> */}
 
               <NavItem>
                 <NavLink href="/rules" className="links">
