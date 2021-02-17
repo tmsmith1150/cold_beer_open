@@ -30,9 +30,6 @@
   }
   
   @media only screen and (max-width: 600px) {
-      
-    }
-  
     .event-name {
       background-color: rgb(216, 218, 219);
       opacity: 0.6;
@@ -42,3 +39,7 @@
       font-size: 60px;
       
     }
+      
+    }
+  
+    

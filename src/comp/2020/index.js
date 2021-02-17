@@ -106,22 +106,85 @@ const Year2020  = () => {
              </>}
              
              {isTabletOrPhone && <>
-             <div className="nav-res">
-                <Navbar></Navbar>
-                </div>
-                
-            
+              <div className="nav-res">
+             <Navbar></Navbar>
+             </div>
 
-            
-             <div className="2020-title">The year 2020.</div>
+             <div className="carousel-year">
+             <PhotoCarousel2020/>
+             </div>
+
+             
+
+             <div className="year-2020-title">A look back at 2020.</div>
 
              <div className="row" col="4">
-             
-            
+
+                 
+<div className="card-div">
+<Card style={{ width: '13rem' }}>
+    <CardLink href="/photosbeachwood2020">
+  <CardImg variant="top" src={Beachwood} />
+  </CardLink>
+  <CardBody>
+    <CardTitle>Beachwood Golf Club</CardTitle>
+    <CardText>
+    Beachwood Golf Club is a public 18-hole golf course located off of U.S. 17 in the heart of North Myrtle Beach.
+    </CardText>
+   
+  </CardBody>
+</Card>
+</div>
+
+<div className="card-div">
+<Card style={{ width: '13rem' }}>
+    <CardLink href="/photosthepearl2020">
+  <CardImg className="the-logo-img" variant="top" src={ThePearl} />
+  </CardLink>
+  <CardBody>
+    <CardTitle>The Pearl East</CardTitle>
+    <CardText>
+    The Pearl Golf Course and the 27 holes create three distinctly different 18 hole golf experiences, The Pearl East, The Pearl West, and The Pearl North.
+    </CardText>
+   
+  </CardBody>
+</Card>
+</div>
+
+<div className="card-div">
+<Card style={{ width: '13rem' }}>
+    <CardLink href="/photosthepearl2020">
+  <CardImg className="the-logo-img" variant="top" src={ThePearl} />
+  </CardLink>
+  <CardBody>
+    <CardTitle>The Pearl West</CardTitle>
+    <CardText>
+    The Pearl Golf Course and the 27 holes create three distinctly different 18 hole golf experiences, The Pearl East, The Pearl West, and The Pearl North.
+    </CardText>
+   
+  </CardBody>
+</Card>
+</div>
+
+<div className="card-div">
+<Card style={{ width: '13rem' }}>
+    <CardLink href="/photosleopardschase2020">
+  <CardImg className="the-logo-img" variant="top" src={LCLogo} />
+  </CardLink>
+  <CardBody>
+    <CardTitle>Leopard's Chase</CardTitle>
+    <CardText>
+    Named by Golf Digest and GOLF Magazine as one of the “Top 10 Best New Public Courses in America for 2007”.
+    </CardText>
+   
+  </CardBody>
+</Card>
+</div>
 
              
           
              
+           
              
              </div>
              </>}
