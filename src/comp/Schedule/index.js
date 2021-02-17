@@ -63,6 +63,7 @@ const Schedule = () => {
 
 
              {isTabletOrPhone && <>
+            
              <div>
              <div className="nav-div">
              <Navbar></Navbar>
@@ -88,6 +89,7 @@ const Schedule = () => {
               
 
              </div>
+            
              </>}
 
          </div>

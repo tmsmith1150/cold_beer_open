@@ -194,6 +194,9 @@ const Year2021  = () => {
   </CardBody>
 </Card>
 </div>
+</div>
+
+<div className="row" col="2">
 
 <div className="card-div">
 <Card style={{ width: '13rem' }}>

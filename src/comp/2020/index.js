@@ -118,7 +118,7 @@ const Year2020  = () => {
 
              <div className="year-2020-title">A look back at 2020.</div>
 
-             <div className="row" col="4">
+             <div className="row" col="2">
 
                  
 <div className="card-div">
@@ -150,6 +150,9 @@ const Year2020  = () => {
   </CardBody>
 </Card>
 </div>
+</div>
+
+<div className="row" col="2">
 
 <div className="card-div">
 <Card style={{ width: '13rem' }}>

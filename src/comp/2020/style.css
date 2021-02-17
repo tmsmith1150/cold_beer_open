@@ -23,3 +23,14 @@
   color: rgb(25, 128, 51);
   text-shadow: 1px 1px 0px #ededed, 4px 4px 0px rgba(0,0,0,0);
 }
+
+
+@media only screen and (max-width: 600px) {
+
+    .year-2020-title {
+        margin-left: 100px;
+        width: 400px;
+    }
+    
+      
+    }
