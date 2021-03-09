@@ -88,3 +88,34 @@
   
     
   }
+
+
+  @media only screen and (max-width: 350px) {
+    .flex-cont {
+      display: flex;
+      flex-wrap: wrap;
+    }
+  
+    .cbo-logo-res {
+        width: 100px;
+        height: 180px;
+        
+    }
+
+    .main-jum-div {
+        height: 500px;
+        width: 400px;
+    }
+
+    .cbo-home-img {
+        height: 250px;
+        width: 250px;
+    }
+
+    .my-jumbotron {
+        height: 200px;
+        width: 330px;
+    }
+  
+    
+  }

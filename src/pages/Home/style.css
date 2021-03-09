@@ -87,6 +87,36 @@
 }
 
 
+@media only screen and (max-width: 350px) {
+  .flex-cont {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .cbo-home-img {
+    height: 200px;
+
+  }
+
+  .year-2021-title {
+    color: rgb(25, 128, 51);
+    text-shadow: 1px 1px 0px #ededed, 4px 4px 0px rgba(0,0,0,0);
+    padding-top: 45px;
+    position: relative;
+    
+  
+  }
+
+  .my-jumbotron {
+    height: 200px;
+  }
+
+  
+
+  
+}
+
+
 
 
 
