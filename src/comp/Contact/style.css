@@ -51,7 +51,7 @@
     margin-top: 10px;
 }
 
-.contact-btn {
+/* .contact-btn {
     background-color: rgb(82, 189, 189);
     border-color: rgb(82, 189, 189);
     width: 300px;
@@ -66,7 +66,7 @@
 .btn:focus {
     background-color: rgb(82, 189, 189);
     border-color: rgb(82, 189, 189);
-}
+} */
 
 .contact-btn-div {
     width:100%;

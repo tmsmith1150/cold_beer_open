@@ -15,6 +15,28 @@ const isTabletOrPhone = useMediaQuery({
     query: '(max-device-width: 1023px)'
 });
 
+const submitBtnStyle = {
+  border: '3px solid teal',
+  backgroundColor: '#009999',
+  textAlign: 'center',
+  justifyContent: 'center',
+  marginLeft: '180px',
+  width: '170px',
+  
+
+  
+};
+
+const inputGroupStyle = {
+  border: '3px solid teal',
+  backgroundColor: '#009999',
+  textAlign: 'center',
+  justifyContent: 'center',
+  width: '350px',
+  height: '43px'
+  
+};
+
      return (
          <div className="sign-up-main">
 
@@ -39,7 +61,7 @@ const isTabletOrPhone = useMediaQuery({
 
              <div className="input-group-info">
              <InputGroup className="name-info player-info">
-        <InputGroupAddon addonType="prepend">First name</InputGroupAddon>
+        <InputGroupAddon style={inputGroupStyle} className="input-group-text" addonType="prepend">First name</InputGroupAddon>
         <Input />
       </InputGroup>
     
@@ -101,7 +123,10 @@ const isTabletOrPhone = useMediaQuery({
       </InputGroup>
       <br />
 
-      <Button className="submit-signup-btn">Submit
+      <Button 
+
+      style={submitBtnStyle}
+      className="submit-signup-btn">Submit
 
       </Button>
       

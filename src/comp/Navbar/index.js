@@ -62,14 +62,14 @@ const Navigation = (props) => {
                 </NavLink>
               </NavItem>
 
-              {/* <NavItem className="item">
+              <NavItem className="item">
                 <NavLink href="/signup" className="links">
                   Sign Up
                 </NavLink>
 
               </NavItem>
 
-              <NavItem className="item">
+              {/* <NavItem className="item">
                 <NavLink href="/sponsors" className="links">
                   Sponsors
                 </NavLink>
@@ -99,7 +99,7 @@ const Navigation = (props) => {
         <Navbar className="nav sticky-top brand" light expand="md">
   
           <NavbarBrand className="ml-3"></NavbarBrand>
-          <NavbarToggler className="nav-toggle" onClick={toggle}/>
+          <NavbarToggler className="toggler" onClick={toggle}/>
           <Collapse isOpen={isOpen} navbar>
             <Nav className="ml-auto navLinks">
   
@@ -121,13 +121,13 @@ const Navigation = (props) => {
                 </NavLink>
               </NavItem>
 
-              {/* <NavItem>
+              <NavItem>
                 <NavLink href="/signup" className="links links-res">
                   Sign Up
                 </NavLink>
               </NavItem>
 
-              <NavItem>
+              {/* <NavItem>
                 <NavLink href="/sponsors" className="links links-res">
                   Sponsors
                 </NavLink>

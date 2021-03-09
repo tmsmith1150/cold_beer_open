@@ -16,20 +16,29 @@ const MyJumbotron = (props) => {
     });
      
     return (
-     <div >
-      <div>
+     <div className="main-jum-div">
+      
         {isDesktopOrLaptop && <>
+            <div className="cbo-home-img">
 
          <Jumbotron className="my-jumbotron">{ <img className="cbo-logo display-4 brand animate__animated animate__fadeIn animate__delay-1s" src={CBOLogo} alt="Logo"/> }</Jumbotron>
-         </>}
          </div>
+         </>}
+         
 
-        <div>
+        
+
+            
+        
          {isTabletOrPhone && <>
 
+            <div className="">
+
           <Jumbotron className="my-jumbotron my-jumbotron-res">{ <img className="cbo-logo cbo-logo-res display-4 brand           animate__animated animate__fadeIn animate__delay-1s" src={CBOLogo} alt="Logo"/> }</          Jumbotron>
-          </>}
           </div>
+
+          </>}
+          
 
 
      </div>

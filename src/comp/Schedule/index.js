@@ -26,17 +26,22 @@ const Schedule = () => {
              </div>
               
               <div className="years-div">
+
+              <div className="year2021-link-div">
              <NavItem className="item">
                 <NavLink href="/2021" className="links year-link">
                   2021
                 </NavLink>
               </NavItem>
+              </div>
 
+              <div className="year2020-link-div">
               <NavItem className="item">
                 <NavLink href="/2020" className="links year-link">
                   2020
                 </NavLink>
               </NavItem>
+              </div>
 
               {/* <NavItem className="item">
                 <NavLink href="/2019" className="links">

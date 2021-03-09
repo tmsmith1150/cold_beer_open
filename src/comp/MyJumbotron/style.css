@@ -1,17 +1,90 @@
 .my-jumbotron {
     background-image: url('../../assets/images/CBO-home.jpg');
     width: 100%;
-    height: 500px;
-    opacity: .8;
+    height: 400px;
+    background-position: 100% top;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+    background-size: 100%;
+      height: 100vh;
+      width: 100%;
+    
 }
 
-.cbo-logo-res {
+.cbo-home-img {
+    height: 720px;
+}
+
+.cbo-logo {
     display: flex;
     justify-content: center;
 }
 
-.my-jumbotron-res {
+/* .my-jumbotron-res {
     display: flex;
     justify-content: center;
     padding-right: 300px;
-}
+} */
+
+@media only screen and (max-width: 980px) {
+    .flex-cont {
+      display: flex;
+      flex-wrap: wrap;
+    }
+  
+    .cbo-logo-res {
+        width: 100px;
+        height: 180px;
+        margin-right: 100px;
+        
+    }
+
+    .main-jum-div {
+        height: 500px;
+        width: 400px;
+    }
+
+    .cbo-home-img {
+        height: 250px;
+        width: 500px;
+    }
+
+    .my-jumbotron {
+        height: 300px;
+        width: 700px;
+    }
+  
+    
+  }
+
+
+@media only screen and (max-width: 600px) {
+    .flex-cont {
+      display: flex;
+      flex-wrap: wrap;
+    }
+  
+    .cbo-logo-res {
+        width: 100px;
+        height: 180px;
+        margin-right: 100px;
+        
+    }
+
+    .main-jum-div {
+        height: 500px;
+        width: 400px;
+    }
+
+    .cbo-home-img {
+        height: 250px;
+        width: 500px;
+    }
+
+    .my-jumbotron {
+        height: 300px;
+        width: 500px;
+    }
+  
+    
+  }

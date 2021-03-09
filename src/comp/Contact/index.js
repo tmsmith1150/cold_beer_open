@@ -22,6 +22,16 @@ const Contact = (props) => {
       query: '(max-device-width: 1023px)'
   });
 
+  const contactBtnStyle = {
+    border: '3px solid teal',
+    backgroundColor: '#009999',
+    textAlign: 'center',
+    justifyContent: 'center',
+    width: '170px',
+  
+    
+  };
+
      return (
          
         
@@ -30,7 +40,10 @@ const Contact = (props) => {
 
 {isDesktopOrLaptop && <>
            <div className="contact-btn-div">
-          <Button className="contact-btn btn btn secondary" onClick={toggle}>Contact Us</Button>
+          <Button 
+          style={contactBtnStyle} 
+          className="contact-btn btn btn secondary" 
+          onClick={toggle}>Contact Us</Button>
           </div>
             <Fade in={fadeIn} tag="h5" className="mt-3">
             
