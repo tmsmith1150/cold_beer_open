@@ -8,6 +8,7 @@
       height: 100vh;
       width: 100%;
       background-image: url('../../assets/images/about-para.jpg');
+
       
 }
 
@@ -59,7 +60,10 @@
     margin-top: 105px;
     border: 5px solid rgb(17, 1, 32);
     border-radius: 40px 20px;
+}
 
+.cbo-about-div {
+    width: 750px;
 }
 
 .second {
@@ -68,7 +72,7 @@
 }
 
 
-@media only screen and (max-width: 780px) {
+@media only screen and (max-width: 980px) {
 
     .about-main {
         width: 100%;
@@ -85,6 +89,7 @@
 
     .cbo-about-div {
         margin-top: 50px;
+        width: 550px;
     }
     .about-para {
         margin-top: 160px;
@@ -108,6 +113,7 @@
 
     .cbo-about-div {
         margin-top: 220px;
+        width: 350px;
     }
     .about-para {
         margin-top: 260px;
@@ -131,7 +137,7 @@
     }
 
     .cbo-about-div {
-        margin-top: 220px;
+        margin-top: 450px;
     }
     .about-para {
         margin-top: 260px;

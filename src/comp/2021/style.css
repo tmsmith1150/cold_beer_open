@@ -4,8 +4,13 @@
     margin-left: 30px;
 }
 
+.card-body {
+    width: 200px;
+}
+
 .row {
     margin-left: 60px;
+    width: 100%;
 }
 
 .year-2021-title {

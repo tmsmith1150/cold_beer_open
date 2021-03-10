@@ -28,12 +28,8 @@ const submitBtnStyle = {
 };
 
 const inputGroupStyle = {
-  border: '3px solid teal',
-  backgroundColor: '#009999',
-  textAlign: 'center',
-  justifyContent: 'center',
-  width: '350px',
-  height: '43px'
+
+ 
   
 };
 
@@ -61,7 +57,7 @@ const inputGroupStyle = {
 
              <div className="input-group-info">
              <InputGroup className="name-info player-info">
-        <InputGroupAddon style={inputGroupStyle} className="input-group-text" addonType="prepend">First name</InputGroupAddon>
+        <InputGroupAddon addonType="prepend">First name</InputGroupAddon>
         <Input />
       </InputGroup>
     
@@ -224,7 +220,9 @@ const inputGroupStyle = {
       </InputGroup>
       <br />
 
-      <Button className="submit-signup-btn">Submit
+      <Button 
+      style={submitBtnStyle}
+      className="submit-signup-btn">Submit
 
       </Button>
       

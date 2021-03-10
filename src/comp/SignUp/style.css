@@ -72,36 +72,42 @@
 } */
 
 
-@media only screen and (max-width: 1080px) {
-    .sign-up-form {
-      margin-top: 40px;
-      display: flex;
-      justify-content:flex-end;
-    }
+@media only screen and (max-width: 980px) {
+    
+
+.input-group-info {
+    width: 400px;
+}
 
    
     
     }
 
     @media only screen and (max-width: 770px) {
-        .sign-up-form {
-          margin-top: 40px;
-          display: flex;
-          justify-content:flex-end;
-          padding-right: 100px;
+        
+        .input-group-info {
+            width: 250px;
+            padding-right: 40%;
         }
-    
+        .sign-up-form {
+            width: 300px;
+          
+            
+        }
        
         
         }
 
         @media only screen and (max-width: 540px) {
-            .sign-up-form {
-              margin-top: 40px;
-              display: flex;
-              justify-content:flex-end;
-              padding-right: 150px;
+            .input-group-info {
+                width: 200px;
             }
+            .sign-up-form {
+                width: 250px;
+              
+                
+            }
+           
         
            
             

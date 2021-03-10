@@ -52,11 +52,12 @@ const Year2021  = () => {
              
              </div>
 
+             <div className="flex-div-desktop">
              <div className="row" col="4">
 
                  
 <div className="card-div">
-<Card style={{ width: '13rem' }}>
+<Card className="card" style={{ width: '13rem' }}>
     <CardLink href="/photosbeachwood2020">
   <CardImg variant="top" src={Beachwood} />
   </CardLink>
@@ -114,19 +115,9 @@ const Year2021  = () => {
   </CardBody>
 </Card>
 </div>
-
-
-
-
-
-
-
-
+ 
              
-          
-             
-           
-             
+             </div>
              </div>
              </>}
              
