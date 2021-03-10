@@ -63,7 +63,7 @@ const Navigation = (props) => {
               </NavItem>
 
               <NavItem className="item">
-                <NavLink href="/signup" className="links">
+                <NavLink href="/signuppage" className="links">
                   Sign Up
                 </NavLink>
 
@@ -122,7 +122,7 @@ const Navigation = (props) => {
               </NavItem>
 
               <NavItem>
-                <NavLink href="/signup" className="links links-res">
+                <NavLink href="/signuppage" className="links links-res">
                   Sign Up
                 </NavLink>
               </NavItem>

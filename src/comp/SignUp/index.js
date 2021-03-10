@@ -1,11 +1,13 @@
-import React from "react"
+import React, {useState} from "react"
 import { Form, InputGroup, Input, InputGroupAddon, Button } from 'reactstrap';
 import './style.css';
-import Navbar from '../Navbar';
+
+
+import SignUpComplete from '../SignUpComplete';
 import MediaQuery, { useMediaQuery } from 'react-responsive';
 
 
-const SignUp = () => {
+const SignUp = (props) => {
 
   const isDesktopOrLaptop = useMediaQuery({
     query: '(min-device-width: 1024px)'
@@ -15,17 +17,7 @@ const isTabletOrPhone = useMediaQuery({
     query: '(max-device-width: 1023px)'
 });
 
-const submitBtnStyle = {
-  border: '3px solid teal',
-  backgroundColor: '#009999',
-  textAlign: 'center',
-  justifyContent: 'center',
-  marginLeft: '180px',
-  width: '170px',
-  
 
-  
-};
 
 const inputGroupStyle = {
 
@@ -33,13 +25,31 @@ const inputGroupStyle = {
   
 };
 
+const [signUpComp, setSignUpComp]=useState(true)
+const [buttonName, setButtonName]=useState("Submit")
+
+function handleClick(){
+  if(signUpComp ===true){
+    setSignUpComp(false)
+
+  }else if (signUpComp ===false){
+    setSignUpComp(true)
+    setButtonName("Submit")
+  }
+  if(signUpComp ===false){
+    setSignUpComp(true)
+
+  }else if (signUpComp ===true){
+    setSignUpComp(false)
+    setButtonName("Thank you!")
+      }
+}
+
      return (
          <div className="sign-up-main">
 
 {isDesktopOrLaptop && <>
-             <div className="nav-div">
-             <Navbar></Navbar>
-             </div>
+            
 
         
 
@@ -119,12 +129,7 @@ const inputGroupStyle = {
       </InputGroup>
       <br />
 
-      <Button 
-
-      style={submitBtnStyle}
-      className="submit-signup-btn">Submit
-
-      </Button>
+      
       
 
 
@@ -138,9 +143,7 @@ const inputGroupStyle = {
 
 
 {isTabletOrPhone && <>
-             <div className="nav-div">
-             <Navbar></Navbar>
-             </div>
+             
 
         
 
@@ -220,11 +223,7 @@ const inputGroupStyle = {
       </InputGroup>
       <br />
 
-      <Button 
-      style={submitBtnStyle}
-      className="submit-signup-btn">Submit
-
-      </Button>
+      
       
 
 

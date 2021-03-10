@@ -43,7 +43,7 @@ const Year2021  = () => {
              <div className="signup-2021-div">
             
 <NavItem className="item">
-                <NavLink href="/signup" className="links signup-2021-link">
+                <NavLink href="/signuppage" className="links signup-2021-link">
                   Sign Up Here
                 </NavLink>
 

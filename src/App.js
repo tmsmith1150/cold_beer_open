@@ -6,6 +6,8 @@ import { Container } from 'reactstrap';
 import Home from './pages/Home';
 // import Login from './pages/Login';
 import SignUp from './comp/SignUp';
+import SignUpComplete from './comp/SignUpComplete';
+import SignUpPage from './comp/SignUpPage';
 import About from './comp/About';
 import Sponsors from './comp/Sponsors';
 import Schedule from './comp/Schedule';
@@ -37,7 +39,9 @@ function App() {
              <Switch> 
             <Route exact path="/" component={Home} />
             <Route exact path="/home" component={Home} />
-            <Route exact path="/signup" component={SignUp} />
+            {/* <Route exact path="/signup" component={SignUp} /> */}
+            <Route exact path="/signuppage" component={SignUpPage} />
+            {/* <Route exact path="/signupcomplete" component={SignUpComplete} /> */}
             <Route exact path="/about" component={About} />
             <Route exact path="/sponsors" component={Sponsors} />
             <Route exact path="/schedule" component={Schedule} />

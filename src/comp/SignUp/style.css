@@ -31,13 +31,7 @@
     margin-top: 30px;
 }
 
-/* .input-group-text {
-    background-color: rgb(24, 114, 24);
-    color: white;
-    font-size: 18px;
-    width: 120px;
-    margin-bottom: 40px;
-} */
+
 
 .name-info {
     height: 30px;
@@ -58,18 +52,7 @@
     margin-bottom: 13px;
 }
 
-/* .submit-signup-btn {
-    color:rgb(24, 114, 24)
-   
-} */
 
-/* .btn-secondary {
-    background-color:rgb(48, 116, 116);
-    color: white;
-    margin-left: 180px;
-    width: 170px;
-    padding-bottom: 30px;
-} */
 
 
 @media only screen and (max-width: 980px) {
