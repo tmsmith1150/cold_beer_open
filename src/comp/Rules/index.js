@@ -26,7 +26,7 @@ const Rules = () => {
              TOURNAMENT RULES
              </div>
              
-
+             
              <div className="rules-list-div">
                <ol>
                    <li>

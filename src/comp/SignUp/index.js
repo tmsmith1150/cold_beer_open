@@ -149,7 +149,7 @@ function handleClick(){
 
           <div className="tbd">
             <h1 className="tbd-h1">
-              Dates and destinations are being finalized. Sign up will begin April 10th.
+              Dates and destinations are being finalized. Sign up will begin May 10th.
             </h1>
           </div>
 
